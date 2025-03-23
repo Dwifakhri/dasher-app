@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #fe7a36;
+  --color-primary-600: #fe6d25;
+  --color-outline-primary: #fe7a36;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.image-login {
+  max-width: 25em;
+}
+
+.form-login {
+  max-width: 400px;
+  width: 100%;
+}
+
+a.link {
+  color: #4b94f4;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  position: absolute;
+  padding: 64px 20px 20px 20px;
+  transition: all 0.3s ease-out;
+  left: 250px;
+  width: calc(100% - 250px);
+
+  @media (max-width: 768px) {
+    transition: all 0.3s ease-out;
+    left: 0px;
+    width: 100%;
+  }
+}
+
+button {
+  cursor: pointer;
+}
