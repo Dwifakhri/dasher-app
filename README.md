@@ -39,3 +39,9 @@ bun run dev
 ```sh
 bun run build
 ```
+
+### Running production version
+
+```sh
+bun run preview
+```
